@@ -1,4 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap");
+.header__top {
+  background: #141414;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 20px rgba(169, 169, 169, 0.18);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+.nav__list {
+  display: flex;
+}
+.nav__list li:not(:first-child) {
+  margin-left: 60px;
+}
+.nav__list li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.nav__list li {
+  padding: 25px 0;
+}
+.nav__personal {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.nav__icon {
+  margin-right: 15px;
+}
+.nav__link a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
 body {
   height: 100%;
   font-family: Montserrat;
