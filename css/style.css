@@ -5,3 +5,8 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
