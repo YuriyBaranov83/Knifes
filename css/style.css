@@ -50,8 +50,8 @@
   justify-content: space-between;
 }
 
-.items {
-  padding: 24px 15px !important;
+.items._container {
+  padding: 24px 15px;
 }
 .items__search {
   display: flex;

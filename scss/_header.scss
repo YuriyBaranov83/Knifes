@@ -61,7 +61,10 @@
    }
 }
 .items {
-   padding: 24px 15px !important;
+   
+   &._container{
+      padding: 24px 15px ;
+   }
    &__search {
       display: flex;
       align-items: center;
