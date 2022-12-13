@@ -5,6 +5,9 @@
       border: 1px solid #000000;
       box-shadow: 0px 4px 20px rgba(169, 169, 169, 0.18);
    }
+   &__middle{
+      background-color: #ECF1F2;
+   }
 
 }
 .nav {
@@ -49,3 +52,98 @@
    }
 }
 
+// ======header__middle
+.header {
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+.items {
+   
+   &__search {
+      display: flex;
+      align-items: center;
+   }
+
+   &__location {
+      display: flex;
+   }
+}
+
+.search {
+
+   &__logo {
+      // padding: 24px 0 24px 10px;
+   }
+
+   &__form {
+      position: relative;
+      margin-left: 157px;
+      & a{
+         position: absolute;
+         top: 11px;
+         left: 24px;
+      }
+      & input{
+         width: 377px;
+         height: 41px;
+         border: 1px solid rgba(4, 4, 4, 0.5);
+         border-radius: 3px;
+        
+         
+      }
+      & input::placeholder{
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 17px;
+         color: rgba(0, 0, 0, 0.5);
+         padding-left: 43px;
+         font-family: 'Montserrat';
+      }
+   }
+}
+.location {
+
+   &__contacts {
+   }
+
+   &__basket {
+   }
+}
+.contacts {
+
+   &__loc {
+   }
+
+   &__number {
+   }
+}
+.number {
+
+   &__phone {
+   }
+}
+.nummber {
+
+   &__text {
+   }
+}
+.basket {
+
+   &__svg {
+   }
+
+   &__amount {
+   }
+
+   &__order {
+   }
+
+   &__sum {
+   }
+
+   &__text {
+   }
+}
