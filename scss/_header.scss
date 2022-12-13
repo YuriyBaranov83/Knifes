@@ -61,7 +61,7 @@
    }
 }
 .items {
-   
+   padding: 24px 15px !important;
    &__search {
       display: flex;
       align-items: center;
@@ -69,6 +69,7 @@
 
    &__location {
       display: flex;
+      justify-content: space-between;
    }
 }
 
@@ -87,8 +88,6 @@
          height: 41px;
          border: 1px solid rgba(4, 4, 4, 0.5);
          border-radius: 3px;
-        
-         
       }
       & input::placeholder{
          font-weight: 500;
@@ -103,43 +102,98 @@
 .location {
 
    &__contacts {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
 
    &__basket {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
 }
 .contacts {
 
    &__loc {
+      display: flex;
+      align-items: center;
+      & a{
+         text-decoration: none;
+         display: flex;
+         align-items: center;
+      }
+      & a span{
+         margin-left: 10px;
+         font-weight: 600;
+         font-size: 18px;
+         line-height: 22px;
+         color: #000000;
+      }
    }
 
    &__number {
+      margin-left: 55px;
    }
 }
 .number {
 
    &__phone {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      & a{
+         margin-left: 10px;
+      }
    }
-}
-.nummber {
 
    &__text {
+      margin-top: 3px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #E8AA31;
    }
 }
-.basket {
 
+.basket {
+   margin-left: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    &__svg {
+      display: flex;
+      align-items: center;
+      position: relative;
+      & svg:nth-child(2){
+         margin-left: 30px;
+      }
    }
 
    &__amount {
+      position: absolute;
+      top: -2px;
+      right: -4px;
+      font-size: 8px;
+      line-height: 16px;
+      color: #FFFFFF;
+      width: 14px;
+      height: 14px;
+      background: #E8AA31;
+      border-radius: 50%;
+      text-align: center;
    }
 
    &__order {
+      margin-left: 15px;
+      font-size: 16px;
+      line-height: 20px;
    }
 
    &__sum {
    }
 
    &__text {
+      color: #E8AA31;
    }
 }
