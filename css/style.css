@@ -170,8 +170,11 @@
   font-size: 16px;
   line-height: 20px;
 }
-.basket__text {
+.basket__text a {
   color: #E8AA31;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 body {
