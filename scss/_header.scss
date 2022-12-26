@@ -8,6 +8,9 @@
    &__middle{
       background-color: #ECF1F2;
    }
+   &__bottom{
+      background-color: #141414;
+   }
 
 }
 .nav {
@@ -212,22 +215,20 @@
 .header {
 
    &__nav-bottom {
-      
+     
    }
 }
 .nav-bottom {
-
+   color: #FFFFFF;
    &__list {
+      display: flex;
+      padding:24px 0;
    }
 
    &__text {
+      
    }
 
    &__sublist {
-   }
-}
-. {
-
-   &_container {
    }
 }
