@@ -168,7 +168,7 @@
       display: flex;
       align-items: center;
       position: relative;
-      & svg:nth-child(2){
+      & a:nth-child(2){
          margin-left: 30px;
       }
    }
@@ -185,6 +185,7 @@
       background: #E8AA31;
       border-radius: 50%;
       text-align: center;
+      text-decoration: none;
    }
 
    &__order {

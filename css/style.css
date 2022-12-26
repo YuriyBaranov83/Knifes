@@ -144,7 +144,7 @@
   align-items: center;
   position: relative;
 }
-.basket__svg svg:nth-child(2) {
+.basket__svg a:nth-child(2) {
   margin-left: 30px;
 }
 .basket__amount {
@@ -159,6 +159,7 @@
   background: #E8AA31;
   border-radius: 50%;
   text-align: center;
+  text-decoration: none;
 }
 .basket__order {
   margin-left: 15px;
