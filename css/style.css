@@ -29,6 +29,11 @@
   line-height: 20px;
   color: #FFFFFF;
 }
+@media (any-hover: hover) {
+  .nav__list li a:hover {
+    text-decoration: underline;
+  }
+}
 .nav__list li {
   padding: 25px 0;
 }
@@ -46,6 +51,11 @@
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+}
+@media (any-hover: hover) {
+  .nav__link a:hover {
+    text-decoration: underline;
+  }
 }
 
 .header__items {
@@ -116,6 +126,11 @@
   line-height: 22px;
   color: #000000;
 }
+@media (any-hover: hover) {
+  .contacts__loc a span:hover {
+    text-decoration: underline;
+  }
+}
 .contacts__number {
   margin-left: 55px;
 }
@@ -138,6 +153,11 @@
 .number__text a {
   text-decoration: none;
   color: #E8AA31;
+}
+@media (any-hover: hover) {
+  .number__text a:hover {
+    text-decoration: underline;
+  }
 }
 
 .basket {
@@ -178,6 +198,11 @@
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
+}
+@media (any-hover: hover) {
+  .basket__text a:hover {
+    text-decoration: underline;
+  }
 }
 
 .nav-bottom {
