@@ -248,6 +248,7 @@
    &__list {
       display: flex;
       padding:24px 0;
+      justify-content: space-between;
    }
 
    &__text {
@@ -255,5 +256,6 @@
    }
 
    &__sublist {
+      
    }
 }
